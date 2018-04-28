@@ -1,12 +1,41 @@
 .portfolio-header {
-    border-bottom: #7d97ad solid 5px;
-    margin: 0;
+  border-bottom: #7d97ad solid 5px;
+  margin: 0;
+}
+.h-one {
+  font-size: 1.5rem;
+}
+.h-three {
+  font-size: 0.9rem;
+}
+.h-four {
+  font-size: 0.6rem;
+}
+a {
+  font-size: 0.7rem;
+}
+
+.campfire {
+   width: 70%;
+   height: 70%;
 }
 
 .dragonlogo {
-    width: 100px;
-    height: 100px;
+  width: 75px;
+  height: 75px;
 }
-.slideshow-display {
-    display: none;
+
+.card {
+  border: none;
+}
+
+
+/* --------------------------------------------------
+Media Queries
+----------------------------------------------------*/
+
+@media (min-width: 576px) { 
+  .h-one {
+    font-size: 2rem;
+  }
 }
