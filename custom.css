@@ -1,0 +1,12 @@
+.portfolio-header {
+    border-bottom: #7d97ad solid 5px;
+    margin: 0;
+}
+
+.dragonlogo {
+    width: 100px;
+    height: 100px;
+}
+.slideshow-display {
+    display: none;
+}
